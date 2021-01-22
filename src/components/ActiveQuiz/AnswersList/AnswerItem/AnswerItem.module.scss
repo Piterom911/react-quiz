@@ -1,0 +1,14 @@
+.AnswerItem {
+  border-radius: 4px;
+  padding: 5px 15px;
+  border: 1px solid white;
+  transition: background .2s ease-in-out;
+  list-style: none;
+  margin-bottom: 10px;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

@@ -3,12 +3,24 @@ import classes from "./Quiz.module.scss"
 import ActiveQuiz from "../../components/ActiveQuiz/ActiveQuiz";
 
 class Quiz extends Component{
+    state = {
+        quiz: [
+            {
+                answers: [
+                    {text: 'Question 1'},
+                    {text: 'Question 2'},
+                    {text: 'Question 3'},
+                    {text: 'Question 4'},
+                ]
+            }
+        ]
+    };
     render() {
         return (
             <div className={classes.Quiz}>
                 <div className={classes.Wrapper}>
                     <h1>Quiz</h1>
-                    <ActiveQuiz/>
+                    <ActiveQuiz answers={this.state.quiz[0].answers}/>
                 </div>
             </div>
         )
