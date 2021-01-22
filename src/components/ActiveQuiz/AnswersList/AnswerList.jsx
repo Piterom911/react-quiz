@@ -9,7 +9,8 @@ const AnswerList = props => {
                 onAnswerClick={props.onAnswerClick}
                 key={index}
                 id={answer.id}
-                text={answer.text}/>)}
+                text={answer.text}
+                answerState={props.answerState ? props.answerState[answer.id] : null}/>)}
         </ul>
     )
 };
