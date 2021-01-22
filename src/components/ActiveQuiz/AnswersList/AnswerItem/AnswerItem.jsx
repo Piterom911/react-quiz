@@ -3,7 +3,7 @@ import classes from './AnswerItem.module.scss';
 
 const AnswersItem = props => {
     return (
-        <li className={classes.AnswerItem}>{props.text}</li>
+        <li onClick={() => props.onAnswerClick(props.id)} className={classes.AnswerItem}>{props.text}</li>
     )
 };
 
