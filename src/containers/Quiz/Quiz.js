@@ -70,7 +70,7 @@ class Quiz extends Component {
                     answerState: null
                 });
                 clearTimeout(timeout);
-            }, 1000)
+            }, 300)
         } else {
             results[this.state.currentQuestion + 1] = 'failed';
             this.setState({
