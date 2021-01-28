@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a7d0ee-1440-4f1f-8664-6aa29db23e86" name="Default Changelist" comment="047 Компонент активного вопроса">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JS-ReactJS\Rect JS Minin\007projects\react-quiz\src\components\Navigation\MenuToggle" />
       <recent name="F:\JS-ReactJS\Rect JS Minin\007projects\react-quiz\src\hoc\Layout" />
     </key>
   </component>
@@ -78,7 +82,8 @@
       <workItem from="1600952494628" duration="2111000" />
       <workItem from="1611314709998" duration="14928000" />
       <workItem from="1611570729756" duration="25000" />
-      <workItem from="1611687094160" duration="17100000" />
+      <workItem from="1611687094160" duration="18620000" />
+      <workItem from="1611856166815" duration="7331000" />
     </task>
     <task id="LOCAL-00001" summary="1. Structure — containers / components">
       <created>1600796266152</created>
