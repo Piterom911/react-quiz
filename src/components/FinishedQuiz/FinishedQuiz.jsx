@@ -2,6 +2,7 @@ import React from "react";
 import classes from './FinishedQuiz.module.scss';
 import { CheckSquareFill,  XSquareFill} from "react-bootstrap-icons";
 import Button from "../UI/Button/Button";
+import {Link} from "react-router-dom";
 
 const FinishedQuiz = props => {
     let rightAnswers = Object.values(props.results).reduce( (sum, next) => {
@@ -23,7 +24,9 @@ const FinishedQuiz = props => {
             <p className={classes.result}>Right {rightAnswers} of {props.quizItems.length}</p>
 
             <Button onClick={props.restartQuizHandler} type={'default'}>Restart quiz</Button>
-            <Button onClick={props.restartQuizHandler} type={'success'}>See all quizzes</Button>
+            <Link to={'/'}>
+                <Button onClick={props.restartQuizHandler} type={'success'}>See all quizzes</Button>
+            </Link>
         </div>
     )
 };

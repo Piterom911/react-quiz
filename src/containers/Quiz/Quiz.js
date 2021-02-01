@@ -35,12 +35,12 @@ class Quiz extends Component {
             {
                 id: 3,
                 question: 'Something something and another something?',
-                rightAnswer: 4,
+                rightAnswer: 1,
                 answers: [
-                    {text: '5.7 Billion', id: 1},
-                    {text: '7.8 Million', id: 2},
-                    {text: '6.3 Billion', id: 3},
-                    {text: '7.8 Billion', id: 4},
+                    {text: 'This is the right answer', id: 1},
+                    {text: 'Interesting text', id: 2},
+                    {text: 'Another one', id: 3},
+                    {text: 'Something not right', id: 4},
                 ]
             }
         ]
@@ -90,6 +90,10 @@ class Quiz extends Component {
             answerState: null,
         })
     };
+
+    componentDidMount() {
+        console.log(this.props.match.params.id)
+    }
 
     render() {
         return (

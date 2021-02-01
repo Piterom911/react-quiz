@@ -6,6 +6,16 @@
   border-radius: 5px;
   padding: 20px;
 
+  small {
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
   .Question {
     display: flex;
     justify-content: space-between;
