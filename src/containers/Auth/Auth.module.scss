@@ -1,3 +1,18 @@
 .Auth {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 100%;
+  background: linear-gradient(90deg, #5D4157 0%, #A8CABA 100%);
 
+  h1 {
+    color: white;
+  }
+
+  form {
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    padding: 20px;
+  }
 }
