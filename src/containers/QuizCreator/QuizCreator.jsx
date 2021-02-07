@@ -5,7 +5,7 @@ export default class QuizCreator extends React.Component{
 
     render() {
         return (
-            <h1>Quiz Creator</h1>
+            <h1 className={classes.QuizCreator}>Quiz Creator</h1>
         );
     }
 }

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a7d0ee-1440-4f1f-8664-6aa29db23e86" name="Default Changelist" comment="047 Компонент активного вопроса">
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/QuizList/QuizList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizList/QuizList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,8 @@
       <workItem from="1611314709998" duration="14928000" />
       <workItem from="1611570729756" duration="25000" />
       <workItem from="1611687094160" duration="18620000" />
-      <workItem from="1611856166815" duration="19802000" />
+      <workItem from="1611856166815" duration="29393000" />
+      <workItem from="1612294384929" duration="4412000" />
     </task>
     <task id="LOCAL-00001" summary="1. Structure — containers / components">
       <created>1600796266152</created>

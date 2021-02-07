@@ -1,0 +1,40 @@
+.Input {
+  display: block;
+  font-size: 16px;
+  color: #756F86;
+  margin-bottom: 15px;
+
+  &.invalid {color: #8c4f4c
+  }
+
+  input {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #DBE2EA;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+    border-radius: 5px;
+    min-width: 320px;
+    height: 42px;
+    padding-left: 16px;
+    transition: border .15s ease-in-out;
+    font-size: 14px;
+    color: #2C2738;
+    margin-top: 7px;
+    outline: none;
+
+    &::placeholder {
+      color: #ccc;
+    }
+
+    &:focus {
+      border: 1px solid #5D4157;
+    }
+  }
+
+  span {
+    color: #95000d;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
